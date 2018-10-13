@@ -36,8 +36,15 @@ h1, h2, h3, h4, h5, h6 {
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 #maincontent {
   background-color: #f3f3f3;
+}
+
+.inside #maincontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #footer {
@@ -202,14 +209,12 @@ nav h1 a {
   width: 100%;
   z-index: 1000;
 }
+
+
 .inside #map-container {
-  height: 20%;
-}
-.inside #map {
-  background-color: #ccc;
-  height: 100%;
   width: 100%;
 }
+
 
 #restaurant-name {
   color: #f18200;
