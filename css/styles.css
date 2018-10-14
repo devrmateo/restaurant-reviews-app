@@ -241,6 +241,20 @@ nav h1 a {
 	width: 339px;
 }
 
+
+
+@media screen and (min-width: 550px) {
+  #restaurant-img {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  #restaurant-img {
+    width: 800px;
+  }
+}
+
 #restaurant-address {
   font-size: 12pt;
   margin: 10px 0px;
