@@ -276,6 +276,18 @@ nav h1 a {
   position: relative;
 }
 
+@media screen and (min-width: 800px) {
+  #restaurants-list li {
+    display: inline-block;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #restaurants-list li {
+    width: 25%;
+  }
+}
 
 #reviews-list li p {
   margin: 0 0 10px;
