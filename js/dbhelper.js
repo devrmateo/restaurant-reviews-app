@@ -154,6 +154,14 @@ class DBHelper {
   }
 
   /**
+  * Restaurant image srcet attribute
+  */
+
+  static imageSrcsetForRestaurant(restaurant) {
+    return (`/img/${restaurant.photograph_small}`);
+  }
+
+  /**
    * Map marker for a restaurant.
    */
   static mapMarkerForRestaurant(restaurant, map) {
