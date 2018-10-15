@@ -5,8 +5,9 @@
     "neighborhood": "Manhattan",
     "photograph": "1.jpg",
     "photograph_small": "1-small.jpg",
-    "photograph-medium": "1-medium.jpg",
-    "photograph-large": "1-large.jpg",
+    "photograph_medium": "1-medium.jpg",
+    "photograph_large": "1-large.jpg",
+    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
     "address": "171 E Broadway, New York, NY 10002",
     "latlng": {
       "lat": 40.713829,

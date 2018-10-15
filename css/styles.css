@@ -238,14 +238,13 @@ nav h1 a {
 }
 
 #restaurant-img {
-	width: 339px;
+	width: 500px;
 }
 
 
-
-@media screen and (min-width: 550px) {
+@media screen and (max-width: 550px) {
   #restaurant-img {
-    width: 500px;
+    width: 339px;
   }
 }
 

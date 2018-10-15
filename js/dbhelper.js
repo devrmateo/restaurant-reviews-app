@@ -162,6 +162,14 @@ class DBHelper {
   }
 
   /**
+  * Restaurant image sizes attribute
+  */
+
+  static imageSizesForRestaurant(restaurant) {
+    return (`${restaurant.sizes}`);
+  }
+
+  /**
    * Map marker for a restaurant.
    */
   static mapMarkerForRestaurant(restaurant, map) {
