@@ -158,7 +158,7 @@ class DBHelper {
   */
 
   static imageSrcsetForRestaurant(restaurant) {
-    return (`/img/${restaurant.photograph_small}`);
+    return ('/img/' + restaurant.sourcesets.small.file_name + ' ' + restaurant.sourcesets.small.size + ', /img/' + restaurant.sourcesets.medium.file_name + ' ' + restaurant.sourcesets.medium.size + ', /img/' + restaurant.sourcesets.large.file_name + ' ' + restaurant.sourcesets.large.size);
   }
 
   /**
