@@ -248,9 +248,9 @@ nav h1 a {
   }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 950px) {
   #restaurant-img {
-    width: 65vw;
+    width: 60vw;
   }
 }
 
