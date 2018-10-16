@@ -18,7 +18,7 @@
         "size": "800w"
       }
     },
-    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 850px) 65vw, (min-width: 1150px) 50vw",
     "address": "171 E Broadway, New York, NY 10002",
     "latlng": {
       "lat": 40.713829,

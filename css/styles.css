@@ -238,19 +238,25 @@ nav h1 a {
 }
 
 #restaurant-img {
-	width: 500px;
+	width: 85vw;
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 550px) {
   #restaurant-img {
-    width: 339px;
+    width: 75vw;
   }
 }
 
 @media screen and (min-width: 850px) {
   #restaurant-img {
-    width: 800px;
+    width: 65vw;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  #restaurant-img {
+    width: 50vw;
   }
 }
 
