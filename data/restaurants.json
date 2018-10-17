@@ -18,7 +18,7 @@
         "size": "800w"
       }
     },
-    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 850px) 65vw, (min-width: 1150px) 50vw",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw",
     "alt_text": "people sitting around a table inside a Chinese restaurant",
     "address": "171 E Broadway, New York, NY 10002",
     "latlng": {
@@ -73,7 +73,7 @@
         "size": "800w"
       }
     },
-    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw",
     "alt_text": "pizza on a serving tray",
     "address": "919 Fulton St, Brooklyn, NY 11238",
     "latlng": {
@@ -128,7 +128,7 @@
         "size": "800w"
       }
     },
-    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw",
     "alt_text": "tables and overhead lighting in an empty restaurant",
     "address": "1 E 32nd St, New York, NY 10016",
     "latlng": {
@@ -183,7 +183,7 @@
         "size": "800w"
       }
     },
-    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw",
     "alt_text": " ",
     "address": "205 E Houston St, New York, NY 10002",
     "latlng": {
@@ -238,7 +238,7 @@
         "size": "800w"
       }
     },
-    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw",
     "alt_text": "people sitting at tables eating at a pizza restaurant with the payment counter and some workers in the background",
     "address": "261 Moore St, Brooklyn, NY 11206",
     "latlng": {
@@ -293,7 +293,7 @@
         "size": "800w"
       }
     },
-    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw",
     "alt_text": "people sitting at tables inside a restaurant with the american flag hanging on the wall in the background",
     "address": "454 Van Brunt St, Brooklyn, NY 11231",
     "latlng": {
@@ -348,7 +348,7 @@
         "size": "800w"
       }
     },
-    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw",
     "alt_text": " ",
     "address": "430 E 9th St, New York, NY 10009",
     "latlng": {
@@ -403,7 +403,7 @@
         "size": "800w"
       }
     },
-    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw",
     "alt_text": " ",
     "address": "131 Sullivan St, New York, NY 10012",
     "latlng": {
@@ -458,7 +458,7 @@
         "size": "800w"
       }
     },
-    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw",
     "alt_text": "people sitting at tables, eating with chopsticks and drinking, with the payment counter in the background",
     "address": "1209 Jackson Ave, Queens, NY 11101",
     "latlng": {
@@ -513,7 +513,7 @@
         "size": "800w"
       }
     },
-    "sizes": "500px, (max-width: 550px) 339px, (min-width: 850px) 800px",
+    "sizes": "85vw, (min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw",
     "alt_text": "the bar, stools and tables in an empty restaurant",
     "address": "5-48 49th Ave, Queens, NY 11101",
     "latlng": {
