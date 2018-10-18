@@ -150,7 +150,10 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`/img/${restaurant.photograph}`);
+    /**Use the 'small' image as the default image source.
+    Programmatically generate the image filename for each restaurant by splitting the image filename and appending it's first part, or number, to the suffix '-small.jpg'.
+    */
+    return (`/img/${(restaurant.photograph.split('.')[0] || restaurant.id)}-small.jpg`);
   }
 
   /**
