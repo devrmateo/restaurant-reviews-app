@@ -180,7 +180,7 @@ class DBHelper {
   */
 
   static imageAltTagsForRestaurant(restaurant) {
-    return (`${restaurant.alt_text}`);
+    return (`Image of ${restaurant.name}`);
   }
 
   /**
