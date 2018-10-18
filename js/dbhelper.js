@@ -172,7 +172,7 @@ class DBHelper {
   */
 
   static imageSizesForRestaurant(restaurant) {
-    return (`${restaurant.sizes}`);
+    return `(min-width: 550px) 75vw, (min-width: 950px) 60vw, (min-width: 1150px) 50vw, 85vw`;
   }
 
   /**
