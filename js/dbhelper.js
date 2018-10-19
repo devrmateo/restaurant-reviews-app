@@ -168,7 +168,15 @@ class DBHelper {
   }
 
   /**
-  * Restaurant image sizes attribute
+  * Restaurant image sizes attribute for 'index.html' restaurant list.
+  */
+
+  static imageSizesForRestaurantList(restaurant) {
+    return `(max-width: 550px) 339px, 500px`;
+  }
+
+  /**
+  * Restaurant image sizes attribute for 'restaurant.html'
   */
 
   static imageSizesForRestaurant(restaurant) {
