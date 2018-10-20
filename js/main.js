@@ -159,11 +159,9 @@ createRestaurantHTML = (restaurant) => {
   li.append(address);
 
   const button = document.createElement('button');
-  button.value = 'View Details';
   button.innerHTML = 'View Details';
-  button.href = DBHelper.urlForRestaurant(restaurant);
   button.onclick = function() {
-    location.href=`${button.href}`;
+    location.href= DBHelper.urlForRestaurant(restaurant);
   }
 
   li.append(button)
