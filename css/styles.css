@@ -234,6 +234,7 @@ nav h1 a {
 
 .breadcrumb {
   text-align: left;
+  height: auto;
 }
 
 
