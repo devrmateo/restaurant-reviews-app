@@ -1,8 +1,6 @@
-const appName = 'restaurant-reviews-app';
-const staticCacheName = appName + 'v1';
+const staticCacheName = 'restaurant-reviews-app-v1';
 
 self.addEventListener('install', function(event) {
-
   event.waitUntil(
     caches.open(staticCacheName).then(function(cache) {
       return cache.addAll([
@@ -23,7 +21,7 @@ self.addEventListener('activate', function(event) {
     caches.keys().then(function(cacheNames) {
       return Promise.all(
         cacheNames.filter(function(cacheName) {
-          return cacheName.startsWith(appName) &&
+          return cacheName.startsWith('restaurant-reviews-app-') &&
                  cacheName != staticCacheName;
         }).map(function(cacheName) {
           return caches.delete(cacheName);
