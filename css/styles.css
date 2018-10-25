@@ -165,6 +165,7 @@ nav h1 a {
   text-align: center;
 }
 
+
 #restaurants-list li {
   background-color: #fff;
   border: 2px solid #ccc;
@@ -180,7 +181,6 @@ nav h1 a {
   background-color: #ccc;
   display: block;
   margin: 0;
-  width: 500px;
   max-width: 100%;
   min-height: 248px;
 }
