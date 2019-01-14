@@ -153,7 +153,7 @@ class DBHelper {
     /**Use the 'small' image as the default image source.
     Programmatically generate the image filename for each restaurant by splitting the image filename and appending it's first part, or number, to the suffix '-small.jpg'.
     */
-    return (`/img/${(restaurant.photograph.split('.')[0] || restaurant.id)}-small.jpg`);
+    return (`img/${(restaurant.photograph.split('.')[0] || restaurant.id)}-small.jpg`);
   }
 
   /**
@@ -161,7 +161,7 @@ class DBHelper {
   */
 
   static imageSrcsetForRestaurant(restaurant) {
-    const baseUrl = `/img/${restaurant.photograph.split('.')[0] || restaurant.id}`;
+    const baseUrl = `img/${restaurant.photograph.split('.')[0] || restaurant.id}`;
     return `${baseUrl}-small.jpg 339w,
             ${baseUrl}-medium.jpg 500w,
             ${baseUrl}.jpg 800w`;
